@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
   spec.authors       = ["JulianSansat"]
   spec.email         = ["kerarchie@yahoo.com.ar"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "http://mygemserver.com"
+  spec.summary       = %q{Ruby oriented graph.}
+  spec.description   = %q{Oriented graph implementation for data structure subject.}
+  spec.homepage      = "https://github.com/JulianSansat/ruby_oriented_graph.git"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
+    spec.metadata['allowed_push_host'] = "https://github.com/JulianSansat/ruby_oriented_graph.git"
   else
     raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
